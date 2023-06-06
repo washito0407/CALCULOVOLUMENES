@@ -25,7 +25,7 @@ public class cilindro {
         this.altura = altura;
     }
 
-    public double VolumenCi(){
+    public double volcilindro(){
 
 
 
