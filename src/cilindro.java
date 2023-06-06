@@ -1,10 +1,34 @@
-import java.util.Scanner;
+
 public class cilindro {
-    Scanner input = new Scanner(System.in);
-    double radius = input.nextDouble();
-    double height = input.nextDouble();
+    float radio;
+    float altura;
 
-    double volume = Math.PI * radius * radius * height;
+    public cilindro(float radio, float altura) {
+        this.radio = radio;
+        this.altura = altura;
 
-    System.out.println("El volumen del cilindro es: " + volume);
+    }
+
+    public float getRadio() {
+        return radio;
+    }
+
+    public void setRadio(float radio) {
+        this.radio = radio;
+    }
+
+    public float getAltura() {
+        return altura;
+    }
+
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+
+    public double VolumenCi(){
+
+
+
+
+    }
 }
