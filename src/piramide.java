@@ -1,16 +1,26 @@
+import static java.lang.Math. *;
 public class piramide {
-    float area;
+    float lado;
 
-    public piramide(float area) {
-        this.area = area;
+    public piramide(float lado) {
+        this.lado = lado;
     }
 
-    public float getArea() {
-        return area;
+    public float getLado() {
+        return lado;
     }
 
-    public void setArea(float area) {
-        this.area = area;
+    public void setLado(float lado) {
+        this.lado = lado;
+    }
+
+
+    public double VolumenPir(){
+        double Mivolumen1 = Math.pow(lado,3);
+        return Mivolumen1;
+    }
+    public String mostrar(){
+        return  "El volumen del cubo es: " + lado;
     }
 
 }
