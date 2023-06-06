@@ -7,5 +7,6 @@ public class Menu {
         System.out.println("3) Calculo de un cilindro");
         System.out.println("4) Calculo de un prisma rectangular");
 
+        cilindro volcilindro=new cilindro();
     }
 }
