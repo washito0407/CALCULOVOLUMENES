@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Menu {
     public static void main(String[] args) {
         System.out.println("   Menú de figuras geometricas   ");
@@ -6,6 +8,12 @@ public class Menu {
         System.out.println("2) Calculo de una pirámide");
         System.out.println("3) Calculo de un cilindro");
         System.out.println("4) Calculo de un prisma rectangular");
+
+
+        Scanner entrada = new Scanner(System.in);
+        float lado;
+        System.out.println("Digite el lado del cubo: ");
+        lado = entrada.NextFloat();
 
 
     }
