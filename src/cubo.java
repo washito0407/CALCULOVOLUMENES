@@ -1,25 +1,29 @@
 import static java.lang.Math. *;
 public class cubo {
-    float area;
+    float lado;
 
-    public cubo(float area) {
-        this.area = area;
+    public cubo(float lado) {
+        this.lado = lado;
     }
 
     public float getArea() {
-        return area;
+        return lado;
     }
 
-    public void setArea(float area) {
-        this.area = area;
+    public void setArea(float lado) {
+        this.lado = lado;
     }
-    public double areaCubo(){
-        double MIarea = 6 * (area * area);
-        return  MIarea;
-    }
+
     public double VolumenCubo(){
-        double Mivolumen = Math.pow(area,3);
+        double Mivolumen = Math.pow(lado,3);
         return Mivolumen;
+    }
+    public String mostrar(){
+        return  "El volumen del cubo es: " + lado;
+
+
+
+
     }
 
 

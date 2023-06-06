@@ -1,41 +1,34 @@
-import java.util.Scanner;
-public class cilindro {
-    double radio;
-    double altura;
 
-    public cilindro(double radio, double altura) {
+public class cilindro {
+    float radio;
+    float altura;
+
+    public cilindro(float radio, float altura) {
         this.radio = radio;
         this.altura = altura;
+
     }
 
-    public double getRadio() {
+    public float getRadio() {
         return radio;
     }
 
-    public void setRadio(double radio) {
+    public void setRadio(float radio) {
         this.radio = radio;
     }
 
-    public double getAltura() {
+    public float getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(float altura) {
         this.altura = altura;
     }
 
     public double volcilindro(){
-        Scanner input = new Scanner(System.in);
-        double radius = input.nextDouble();
-        double height = input.nextDouble();
 
-        double volume = calculateVolume(radius, height);
 
-        System.out.println("El volumen del cilindro es: " + volume);
-    }
 
-    public static double calculateVolume(double radius, double height) {
-        double volume = Math.PI * radius * radius * height;
-        return volume;
+
     }
 }
